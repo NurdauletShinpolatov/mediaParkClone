@@ -2,13 +2,29 @@
   width: 100%;
   height: 48px;
   border: 1px solid black;
-  
 
   .container{
     height: 100%;
     border: 1px solid black;
     max-width: 1440px;
     margin: auto;
+
+    .roundedRedBtn{
+      padding: 4px 6px;
+      background-color: #d92e15;
+      border-radius: 7px;
+      color: #fff;
+    }
+
+    .roundedBlueBtn{
+      padding: 6px 8px;
+      background-color: #0b2b5e;
+      border-radius: 8px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
 
   }
 }
