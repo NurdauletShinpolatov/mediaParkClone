@@ -6,7 +6,7 @@ import bannerImg from '@/assets/images/UpperBanner.png';
 export default function UpperBanner() {
   return(
     <div className={cls.upperBanner}>
-      <Image src={bannerImg} className={cls.img} />
+      <Image src={bannerImg} alt='discount' className={cls.img} />
     </div>
   )
 }
